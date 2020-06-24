@@ -56,4 +56,14 @@
  * 
  * 回退到某个版本
  * git reset --hard xxxx
+ * 
+ * 
+ * 
+ * git init
+ * git add/git add .
+ * git status /git status -s
+ * git commit -m '描述信息'
+ * 
+ * git commit -a -m '描述信息'
+ * 有效的文件是:之前被添加到追踪文件,修改后的文件
  */
