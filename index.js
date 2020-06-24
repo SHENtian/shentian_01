@@ -21,12 +21,15 @@
 //2.克隆(clone) git clone "xxx" 可以本身存在云端的仓库拉到本地
 
 //U: 表示这个文件未被追踪 untracked
-//A:
+//A: 表示这个文件已经添加到追踪文件
+//M:表示这个文件已经被更改了(modified)
 
 //git status 用来查看当前文件状态
 //精简的方式 git status -s(short) //查看当前文件状态
 
 // 跟踪文件
-//git add xxx.js(文件名称) / git add . 所有文件添加到追踪文件
+//git add xxx.js(文件名称) / git add .  git add -A所有文件添加到追踪文件
 
+//提交更新
+// git commit -m 'XXXXxxxx'
 
