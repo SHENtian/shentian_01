@@ -44,3 +44,8 @@
 //移除文件:
 //本地仓库和本地工作区:git rm -f 文件名称 (危险)
 //本地工作区 git rm --cached 文件名称
+
+/**
+ * 忽略文件:
+ * 创建文件夹名称:.gitignore ---- /node_modules(表示忽略node_modules文件夹)
+ */
