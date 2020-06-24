@@ -33,3 +33,10 @@
 //提交更新
 // git commit -m 'XXXXx'
 
+//撤销对文件的修改
+//git checkout -- 文件名称
+
+//取消暂存 git reset HEAD (文件名称)
+
+//跳过添加暂存区
+//git commit -a -m '描述信息'
