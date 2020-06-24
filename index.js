@@ -48,4 +48,12 @@
 /**
  * 忽略文件:
  * 创建文件夹名称:.gitignore ---- /node_modules(表示忽略node_modules文件夹)
+ * 
+ * 查看历史记录
+ * git log   ----q 退出(quit)
+ * git log --oneline 一行显示
+ * 
+ * 
+ * 回退到某个版本
+ * git reset --hard xxxx
  */
