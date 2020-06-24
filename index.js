@@ -31,5 +31,5 @@
 //git add xxx.js(文件名称) / git add .  git add -A所有文件添加到追踪文件
 
 //提交更新
-// git commit -m 'XXXXxxxx'
+// git commit -m 'XXXXx'
 
