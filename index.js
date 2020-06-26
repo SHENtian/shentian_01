@@ -66,4 +66,11 @@
  * 
  * git commit -a -m '描述信息'
  * 有效的文件是:之前被添加到追踪文件,修改后的文件
+ * 
+ * git push -u origin master -f force  强制push
+ * 
+ * 
+ * //后续的提交:git push
+ * git status ->git add . ->git status ->git commit -m '描述信息' ->git push
+ * 
  */
