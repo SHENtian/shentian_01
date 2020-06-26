@@ -77,4 +77,24 @@
  * 
  * 检测 ssh key 是否配置成功的命令:ssh -T git@github.com
  * 
+ * 克隆
+ * git clone git@github.com:SHENtian/shentian_01.git
+ * 
+ * 分支  branch
+ * master 分支 (合并分支)
+ * 功能分支: 主要做某一块具体的业务功能
+ * 查看分支列表:git branch *表示当前所在分支
+ * 
+ * 创建分支:git branch login(分支名称)
+ * 特点:1.在master分支上,新建了个login分支,login分支的代码和master分支上一模一样
+ *      2.不管建了多少个分支,此时仍在主分支上,不会进行切换
+ * 
+ * 切换分支:git checkout 分支名称
+ * 
+ * 先创建 ,同时并切换分支: git checkout -b 分支名称
+ * 
+ * 合并分支: master 分支合并 功能合并 (切换到master分支上, git merge 分支名称)
+ *      
+ * 
+ * <合并分支测试>
  */
