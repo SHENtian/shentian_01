@@ -73,4 +73,8 @@
  * //后续的提交:git push
  * git status ->git add . ->git status ->git commit -m '描述信息' ->git push
  * 
+ * 生成 ssh key 的命令:ssh-keygen -t rsa -b 4096 -C '1324329809@qq.com'
+ * 
+ * 检测 ssh key 是否配置成功的命令:ssh -T git@github.com
+ * 
  */
