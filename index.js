@@ -96,5 +96,6 @@
  * 合并分支: master 分支合并 功能合并 (切换到master分支上, git merge 分支名称)
  *      
  * 
- * <合并分支测试>
+ *删除分支:git branch -d 分支名称
+ 具体的冲突更改都是手动进行更改的: git merge
  */
